@@ -1,0 +1,52 @@
+
+openapi: 3.0.3
+components:
+  schemas:
+    invoice:
+      type: object
+      properties:
+        id:
+          type: number
+        business_code:
+          type: string
+        cust_number:
+          type: string
+        name_customer:
+          type: string
+        clear_date:
+          type: string
+          format: date
+        business_year:
+          type: string
+        doc_id:
+          type: number
+        posting_date:
+          type: string
+          format: date
+        document_create_date:
+          type: string
+          format: date
+        document_create_date_1:
+          type: string
+          format: date
+        due_in_date:
+          type: string
+          format: date
+        invoice_currency:
+          type: string
+        document_type:
+          type: string
+        total_open_amount:
+          type: number
+        baseline_create_date:
+          type: string
+          format: date
+        cust_payment_terms:
+          type: string
+        invoice_id:
+          type: string
+        isopen:
+          type: number
+        eventdate:
+          type: string
+          format: date-time
